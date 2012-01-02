@@ -1,0 +1,509 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/11/trunk/GIZA++-v2
+END
+TTables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/GIZA++-v2/TTables.cpp
+END
+FlexArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/GIZA++-v2/FlexArray.h
+END
+utility.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/GIZA++-v2/utility.cpp
+END
+Array2.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/5/trunk/GIZA++-v2/Array2.h
+END
+dependencies
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/GIZA++-v2/dependencies
+END
+Dictionary.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/6/trunk/GIZA++-v2/Dictionary.cpp
+END
+trainGIZA++.sh
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/GIZA++-v2/trainGIZA++.sh
+END
+Array4.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/GIZA++-v2/Array4.h
+END
+Perplexity.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/6/trunk/GIZA++-v2/Perplexity.h
+END
+transpair_model2.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/6/trunk/GIZA++-v2/transpair_model2.h
+END
+transpair_model4.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/GIZA++-v2/transpair_model4.h
+END
+Parameter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/GIZA++-v2/Parameter.cpp
+END
+ATables.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/9/trunk/GIZA++-v2/ATables.h
+END
+model3_viterbi_with_tricks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/GIZA++-v2/model3_viterbi_with_tricks.cpp
+END
+model1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/GIZA++-v2/model1.cpp
+END
+model2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/GIZA++-v2/model2.cpp
+END
+model3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/GIZA++-v2/model3.cpp
+END
+collCounts.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/GIZA++-v2/collCounts.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/13/trunk/GIZA++-v2/Makefile
+END
+NTables.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/6/trunk/GIZA++-v2/NTables.h
+END
+WordClasses.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/GIZA++-v2/WordClasses.h
+END
+vocab.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/8/trunk/GIZA++-v2/vocab.h
+END
+TTables.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/9/trunk/GIZA++-v2/TTables.h
+END
+logprob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/trunk/GIZA++-v2/logprob.cpp
+END
+getSentence.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/8/trunk/GIZA++-v2/getSentence.cpp
+END
+mymath.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/GIZA++-v2/mymath.h
+END
+Perplexity.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/GIZA++-v2/Perplexity.cpp
+END
+transpair_model3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/GIZA++-v2/transpair_model3.cpp
+END
+Makefile.definitions
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/GIZA++-v2/Makefile.definitions
+END
+transpair_model4.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/GIZA++-v2/transpair_model4.cpp
+END
+transpair_model5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/GIZA++-v2/transpair_model5.cpp
+END
+model2to3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/GIZA++-v2/model2to3.cpp
+END
+plain2snt.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/GIZA++-v2/plain2snt.cpp
+END
+ATables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/GIZA++-v2/ATables.cpp
+END
+myassert.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/GIZA++-v2/myassert.h
+END
+HMMTables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/GIZA++-v2/HMMTables.cpp
+END
+alignment.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/GIZA++-v2/alignment.cpp
+END
+small_snt2cooc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4/trunk/GIZA++-v2/small_snt2cooc.cpp
+END
+Parameter.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/6/trunk/GIZA++-v2/Parameter.h
+END
+Pointer.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/6/trunk/GIZA++-v2/Pointer.h
+END
+collCounts.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/GIZA++-v2/collCounts.cpp
+END
+MoveSwapMatrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/GIZA++-v2/MoveSwapMatrix.cpp
+END
+hmm.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/9/trunk/GIZA++-v2/hmm.h
+END
+model2.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/9/trunk/GIZA++-v2/model2.h
+END
+transpair_modelhmm.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/6/trunk/GIZA++-v2/transpair_modelhmm.h
+END
+file_spec.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/12/trunk/GIZA++-v2/file_spec.h
+END
+reports.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/8/trunk/GIZA++-v2/reports.cpp
+END
+Vector.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/6/trunk/GIZA++-v2/Vector.h
+END
+D4Tables.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/8/trunk/GIZA++-v2/D4Tables.h
+END
+model3_viterbi.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/GIZA++-v2/model3_viterbi.cpp
+END
+myassert.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/GIZA++-v2/myassert.cpp
+END
+D5Tables.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/8/trunk/GIZA++-v2/D5Tables.h
+END
+ForwardBackward.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/GIZA++-v2/ForwardBackward.h
+END
+logprob.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/3/trunk/GIZA++-v2/logprob.h
+END
+transpair_model1.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/6/trunk/GIZA++-v2/transpair_model1.h
+END
+getSentence.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/GIZA++-v2/getSentence.h
+END
+parse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/8/trunk/GIZA++-v2/parse.cpp
+END
+transpair_model3.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/6/trunk/GIZA++-v2/transpair_model3.h
+END
+transpair_model5.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/GIZA++-v2/transpair_model5.h
+END
+hmm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/GIZA++-v2/hmm.cpp
+END
+HMMTables.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/9/trunk/GIZA++-v2/HMMTables.h
+END
+Makefile.src
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/GIZA++-v2/Makefile.src
+END
+alignment.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/6/trunk/GIZA++-v2/alignment.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/GIZA++-v2/main.cpp
+END
+Globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/GIZA++-v2/Globals.h
+END
+AlignTables.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/9/trunk/GIZA++-v2/AlignTables.h
+END
+MoveSwapMatrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/GIZA++-v2/MoveSwapMatrix.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/GIZA++-v2/LICENSE
+END
+ForwardBackward.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/GIZA++-v2/ForwardBackward.cpp
+END
+model345-peg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/GIZA++-v2/model345-peg.cpp
+END
+utility.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/GIZA++-v2/utility.h
+END
+snt2plain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/GIZA++-v2/snt2plain.cpp
+END
+Dictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/GIZA++-v2/Dictionary.h
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/GIZA++-v2/README
+END
+mystl.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/9/trunk/GIZA++-v2/mystl.h
+END
+Array.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/GIZA++-v2/Array.h
+END
+AlignTables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/GIZA++-v2/AlignTables.cpp
+END
+model1.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/9/trunk/GIZA++-v2/model1.h
+END
+defs.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/GIZA++-v2/defs.h
+END
+NTables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/GIZA++-v2/NTables.cpp
+END
+model3.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/9/trunk/GIZA++-v2/model3.h
+END
+GNU.GPL
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/GIZA++-v2/GNU.GPL
+END
+snt2cooc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/8/trunk/GIZA++-v2/snt2cooc.cpp
+END
+vocab.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/8/trunk/GIZA++-v2/vocab.cpp
+END

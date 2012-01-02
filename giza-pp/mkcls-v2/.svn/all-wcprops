@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/10/trunk/mkcls-v2
+END
+MYOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/mkcls-v2/MYOptimization.h
+END
+FlexArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/mkcls-v2/FlexArray.h
+END
+ProblemTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/mkcls-v2/ProblemTest.h
+END
+Problem.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/mkcls-v2/Problem.h
+END
+HCOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/mkcls-v2/HCOptimization.h
+END
+GDAOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/mkcls-v2/GDAOptimization.h
+END
+KategProblemWBC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/mkcls-v2/KategProblemWBC.cpp
+END
+SAOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/mkcls-v2/SAOptimization.cpp
+END
+PopOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/mkcls-v2/PopOptimization.h
+END
+KategProblem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/10/trunk/mkcls-v2/KategProblem.cpp
+END
+KategProblemTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/10/trunk/mkcls-v2/KategProblemTest.cpp
+END
+RRTOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/mkcls-v2/RRTOptimization.cpp
+END
+IterOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/mkcls-v2/IterOptimization.h
+END
+TAOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/mkcls-v2/TAOptimization.h
+END
+makePackage.sh
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/mkcls-v2/makePackage.sh
+END
+general.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/mkcls-v2/general.h
+END
+StatVar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/mkcls-v2/StatVar.cpp
+END
+Optimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/mkcls-v2/Optimization.cpp
+END
+MSBOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/mkcls-v2/MSBOptimization.cpp
+END
+my.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/2/trunk/mkcls-v2/my.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/mkcls-v2/Makefile
+END
+MYOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/mkcls-v2/MYOptimization.cpp
+END
+Problem.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/mkcls-v2/Problem.cpp
+END
+ProblemTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/mkcls-v2/ProblemTest.cpp
+END
+KategProblemKBC.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/mkcls-v2/KategProblemKBC.h
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/mkcls-v2/LICENSE
+END
+HCOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/mkcls-v2/HCOptimization.cpp
+END
+GDAOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/mkcls-v2/GDAOptimization.cpp
+END
+FixedArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/10/trunk/mkcls-v2/FixedArray.h
+END
+PopOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/mkcls-v2/PopOptimization.cpp
+END
+mkcls.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/mkcls-v2/mkcls.cpp
+END
+IterOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/mkcls-v2/IterOptimization.cpp
+END
+TAOptimization.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/mkcls-v2/TAOptimization.cpp
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/2/trunk/mkcls-v2/README
+END
+myassert.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/mkcls-v2/myassert.h
+END
+general.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/mkcls-v2/general.cpp
+END
+mystl.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/mkcls-v2/mystl.h
+END
+KategProblemWBC.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/mkcls-v2/KategProblemWBC.h
+END
+SAOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/mkcls-v2/SAOptimization.h
+END
+myleda.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/2/trunk/mkcls-v2/myleda.h
+END
+KategProblem.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/mkcls-v2/KategProblem.h
+END
+KategProblemTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/mkcls-v2/KategProblemTest.h
+END
+Array.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/mkcls-v2/Array.h
+END
+RRTOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/mkcls-v2/RRTOptimization.h
+END
+GNU.GPL
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/2/trunk/mkcls-v2/GNU.GPL
+END
+StatVar.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/mkcls-v2/StatVar.h
+END
+Optimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/mkcls-v2/Optimization.h
+END
+KategProblemKBC.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/mkcls-v2/KategProblemKBC.cpp
+END
+MSBOptimization.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/mkcls-v2/MSBOptimization.h
+END

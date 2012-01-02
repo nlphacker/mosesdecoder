@@ -1,3 +1,10 @@
 This document how I build this stuff on windows.
 
+2:57 PM 1/2/2012
++Fork moses on github and enlist
++Install latest cygwin from http://www.cygwin.com/install.html
++Download GIZA-pp from http://code.google.com/p/giza-pp/downloads/detail?name=giza-pp.tgz&can=2&q=
+-Have trouble to download srilm from http://www.speech.sri.com/projects/srilm/download.html
+
+
  
