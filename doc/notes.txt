@@ -6,5 +6,9 @@ This document how I build this stuff on windows.
 +Download GIZA-pp from http://code.google.com/p/giza-pp/downloads/detail?name=giza-pp.tgz&can=2&q=
 -Have trouble to download srilm from http://www.speech.sri.com/projects/srilm/download.html
 
+*Build GIZA-pp
+Extract the package. 
+type Make under the folder
+
 
  

@@ -1,0 +1,121 @@
+../obj/i686-m64$(OBJ_OPTION)/matherr.o: matherr.c
+../obj/i686-m64$(OBJ_OPTION)/Prob.o: Prob.cc Prob.h ../../include/Boolean.h
+../obj/i686-m64$(OBJ_OPTION)/Counts.o: Counts.cc ../../include/Boolean.h Counts.h XCount.h \
+ ../../include/File.h ../../include/Boolean.h
+../obj/i686-m64$(OBJ_OPTION)/XCount.o: XCount.cc XCount.h ../../include/Boolean.h
+../obj/i686-m64$(OBJ_OPTION)/Vocab.o: Vocab.cc ../../include/File.h ../../include/Boolean.h Vocab.h \
+ ../../include/Boolean.h ../../include/LHash.h ../../include/Map.h \
+ ../../include/MemStats.h ../../include/SArray.h ../../include/Array.h \
+ ../../include/MemStats.h ../../include/LHash.cc ../../include/LHash.h \
+ ../../include/Array.cc ../../include/Array.h
+../obj/i686-m64$(OBJ_OPTION)/VocabMap.o: VocabMap.cc VocabMap.h ../../include/Boolean.h Prob.h Vocab.h \
+ ../../include/File.h ../../include/Boolean.h ../../include/LHash.h \
+ ../../include/Map.h ../../include/MemStats.h ../../include/SArray.h \
+ ../../include/Array.h ../../include/MemStats.h ../../include/Map2.h \
+ ../../include/LHash.h ../../include/Map2.cc ../../include/Map2.h \
+ ../../include/LHash.cc
+../obj/i686-m64$(OBJ_OPTION)/VocabMultiMap.o: VocabMultiMap.cc VocabMultiMap.h ../../include/Boolean.h \
+ Prob.h Vocab.h ../../include/File.h ../../include/Boolean.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ ../../include/Map2.h ../../include/LHash.h ../../include/Array.cc \
+ ../../include/Array.h ../../include/Map2.cc ../../include/Map2.h \
+ ../../include/LHash.cc
+../obj/i686-m64$(OBJ_OPTION)/VocabDistance.o: VocabDistance.cc VocabDistance.h Vocab.h \
+ ../../include/Boolean.h ../../include/File.h ../../include/Boolean.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ SubVocab.h VocabMultiMap.h Prob.h ../../include/Map2.h \
+ ../../include/LHash.h WordAlign.h ../../include/Map2.cc \
+ ../../include/Map2.h ../../include/LHash.cc
+../obj/i686-m64$(OBJ_OPTION)/SubVocab.o: SubVocab.cc SubVocab.h Vocab.h ../../include/Boolean.h \
+ ../../include/File.h ../../include/Boolean.h ../../include/LHash.h \
+ ../../include/Map.h ../../include/MemStats.h ../../include/SArray.h \
+ ../../include/Array.h ../../include/MemStats.h
+../obj/i686-m64$(OBJ_OPTION)/MultiwordVocab.o: MultiwordVocab.cc MultiwordVocab.h Vocab.h \
+ ../../include/Boolean.h ../../include/File.h ../../include/Boolean.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ ../../include/LHash.cc ../../include/LHash.h ../../include/Array.cc \
+ ../../include/Array.h
+../obj/i686-m64$(OBJ_OPTION)/TextStats.o: TextStats.cc TextStats.h Prob.h ../../include/Boolean.h \
+ Counts.h XCount.h ../../include/File.h ../../include/Boolean.h
+../obj/i686-m64$(OBJ_OPTION)/LM.o: LM.cc LM.h ../../include/Boolean.h Prob.h Counts.h XCount.h \
+ ../../include/File.h ../../include/Boolean.h Vocab.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ SubVocab.h TextStats.h ../../include/Debug.h NgramStats.h LMStats.h \
+ ../../include/Trie.h ../../include/LHash.h RemoteLM.h NBest.h \
+ ../../include/Map.h Bleu.h ../../include/Array.cc ../../include/Array.h
+../obj/i686-m64$(OBJ_OPTION)/LMClient.o: LMClient.cc LMClient.h LM.h ../../include/Boolean.h Prob.h \
+ Counts.h XCount.h ../../include/File.h ../../include/Boolean.h Vocab.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ SubVocab.h TextStats.h ../../include/Debug.h NgramStats.h LMStats.h \
+ ../../include/Trie.h ../../include/LHash.h Ngram.h Discount.h RemoteLM.h \
+ ../../include/Array.cc ../../include/Array.h
+../obj/i686-m64$(OBJ_OPTION)/LMStats.o: LMStats.cc ../../include/File.h ../../include/Boolean.h \
+ LMStats.h ../../include/Boolean.h Vocab.h ../../include/LHash.h \
+ ../../include/Map.h ../../include/MemStats.h ../../include/SArray.h \
+ ../../include/Array.h ../../include/MemStats.h TextStats.h Prob.h \
+ Counts.h XCount.h ../../include/Debug.h ../../include/LHash.cc \
+ ../../include/LHash.h ../../include/Trie.cc ../../include/Trie.h \
+ ../../include/LHash.cc
+../obj/i686-m64$(OBJ_OPTION)/RefList.o: RefList.cc RefList.h ../../include/Boolean.h \
+ ../../include/File.h ../../include/Boolean.h Vocab.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ ../../include/LHash.cc ../../include/LHash.h ../../include/Array.cc \
+ ../../include/Array.h
+../obj/i686-m64$(OBJ_OPTION)/Bleu.o: Bleu.cc Bleu.h
+../obj/i686-m64$(OBJ_OPTION)/NBest.o: NBest.cc NBest.h ../../include/Boolean.h Prob.h Counts.h \
+ XCount.h ../../include/File.h ../../include/Boolean.h \
+ ../../include/Map.h ../../include/MemStats.h Vocab.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/SArray.h \
+ ../../include/Array.h ../../include/MemStats.h LM.h SubVocab.h \
+ TextStats.h ../../include/Debug.h NgramStats.h LMStats.h \
+ ../../include/Trie.h ../../include/LHash.h Bleu.h WordAlign.h \
+ MultiwordVocab.h ../../include/Array.cc ../../include/Array.h
+../obj/i686-m64$(OBJ_OPTION)/NBestSet.o: NBestSet.cc NBestSet.h ../../include/Boolean.h \
+ ../../include/File.h ../../include/Boolean.h Vocab.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ NBest.h Prob.h Counts.h XCount.h ../../include/Map.h LM.h SubVocab.h \
+ TextStats.h ../../include/Debug.h NgramStats.h LMStats.h \
+ ../../include/Trie.h ../../include/LHash.h Bleu.h RefList.h NullLM.h \
+ MultiwordVocab.h ../../include/LHash.cc
+../obj/i686-m64$(OBJ_OPTION)/NgramLM.o: NgramLM.cc Ngram.h LM.h ../../include/Boolean.h Prob.h \
+ Counts.h XCount.h ../../include/File.h ../../include/Boolean.h Vocab.h \
+ ../../include/LHash.h ../../include/Map.h ../../include/MemStats.h \
+ ../../include/SArray.h ../../include/Array.h ../../include/MemStats.h \
+ SubVocab.h TextStats.h ../../include/Debug.h NgramStats.h LMStats.h \
+ ../../include/Trie.h ../../include/LHash.h Discount.h \
+ ../../include/zio.h ../../include/Array.cc ../../include/Array.h \
+ ../../include/LHash.cc ../../include/Trie.cc ../../include/Trie.h \
+ ../../include/LHash.cc
+../obj/i686-m64$(OBJ_OPTION)/NgramStatsInt.o: NgramStatsInt.cc NgramStats.cc NgramStats.h XCount.h \
+ ../../include/Boolean.h LMStats.h Vocab.h ../../include/File.h \
+ ../../include/Boolean.h ../../include/LHash.h ../../include/Map.h \
+ ../../include/MemStats.h ../../include/SArray.h ../../include/Array.h \
+ ../../include/MemStats.h TextStats.h Prob.h Counts.h \
+ ../../include/Debug.h ../../include/Trie.h ../../include/LHash.h \
+ ../../include/Trie.cc ../../include/Trie.h ../../include/LHash.cc \
+ ../../include/LHash.cc ../../include/Array.cc ../../include/Array.h \
+ ../../include/zio.h
+../obj/i686-m64$(OBJ_OPTION)/NgramStatsShort.o: NgramStatsShort.cc NgramStats.cc NgramStats.h XCount.h \
+ ../../include/Boolean.h LMStats.h Vocab.h ../../include/File.h \
+ ../../include/Boolean.h ../../include/LHash.h ../../include/Map.h \
+ ../../include/MemStats.h ../../include/SArray.h ../../include/Array.h \
+ ../../include/MemStats.h TextStats.h Prob.h Counts.h \
+ ../../include/Debug.h ../../include/Trie.h ../../include/LHash.h \
+ ../../include/Trie.cc ../../include/Trie.h ../../include/LHash.cc \
+ ../../include/LHash.cc ../../include/Array.cc ../../include/Array.h \
+ ../../include/zio.h
+../obj/i686-m64$(OBJ_OPTION)/NgramStatsLong.o: NgramStatsLong.cc NgramStats.cc NgramStats.h XCount.h \
+ ../../include/Boolean.h LMStats.h Vocab.h ../../include/File.h \
+ ../../include/Boolean.h ../../include/LHash.h ../../include/Map.h \
+ ../../include/MemStats.h ../../include/SArray.h ../../include/Array.h \
+ ../../include/MemStats.h TextStats.h Prob.h Counts.h \
+ ../../include/Debug.h ../../include/Trie.h ../../include/LHash.h \
+ ../../include/Trie.cc ../../include/Trie.h ../../include/LHash.cc \
+ ../../include/LHash.cc ../../include/Array.cc ../../inc
