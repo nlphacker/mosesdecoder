@@ -1,0 +1,3 @@
+This document how I build this stuff on windows.
+
+ 
