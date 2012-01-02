@@ -11,8 +11,14 @@ Extract the package.
 type Make under the folder
 
 
+./bjam --with-srilm=/media/andorid/smt/mosesdecoder/srilm --with-giza=/media/andorid/smt/mosesdecoder/bin -j2
 
+#--with-irstlm=/home/jschroe1/demo/tools/irstlm 
 
+How to install boost
+sudo apt-get install libboost_thread-dev
+sudo apt-get install libboost-program-options-dev
+libboost-test-dev
 
 
 How to use GIT
@@ -25,4 +31,4 @@ git status
 git add file
 git add folder
 git checkout folder
-
+git commit  (modified or added files) -a for all files

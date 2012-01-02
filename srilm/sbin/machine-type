@@ -106,8 +106,8 @@ if ($#RESULT > 0) then
     else if (`uname -m` == i686) then
 	set MACHINE_TYPE = i686
     else if (`uname -m` == x86_64) then
-	#set MACHINE_TYPE = i686-m64
-	set MACHINE_TYPE = i686
+	set MACHINE_TYPE = i686-m64
+	#set MACHINE_TYPE = i686
     else
 	## Generate an error by doing nothing.  (Used to be the line below:)
 	## echo "ERROR: Unsupported machine type: "$RESULT
