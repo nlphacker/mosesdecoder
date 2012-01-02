@@ -6,7 +6,7 @@
 
 SRILM = /media/andorid/moses/srilm 
 
-MACHINE_TYPE := i686
+MACHINE_TYPE := i686-m64
 
 #$(shell $(SRILM)/sbin/machine-type)
 

@@ -11,4 +11,18 @@ Extract the package.
 type Make under the folder
 
 
- 
+
+
+
+
+How to use GIT
+git config --global user.name "nlphacker"
+git config --global user.email "nlphacker@github.com"
+
+List pending commit changes:
+git status 
+
+git add file
+git add folder
+git checkout folder
+
