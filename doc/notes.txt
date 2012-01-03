@@ -82,7 +82,7 @@ head -n 100 work/tuning/nc-dev2007.lowercased.en > work/tuning/nc-dev2007.lowerc
 
 $SCRIPTS_ROOTDIR/training/mert-moses.pl work/tuning/nc-dev2007.lowercased.100.fr work/tuning/nc-dev2007.lowercased.100.en dist/bin/moses work/model/moses.ini --working-dir /media/andorid/smt/mosesdecoder/work/tuning/mert --rootdir  $SCRIPTS_ROOTDIR  --decoder-flags "-v 0"
 
-$SCRIPTS_ROOTDIR/reuse-weights.perl work/tuning/mert/run2.moses.ini < work/model/moses.ini > work/tuning/moses-tuned.ini
+$SCRIPTS_ROOTDIR/reuse-weights.perl work/tuning/mert/moses.ini < work/model/moses.ini > work/tuning/moses-tuned.ini
 
 Fiter test data
 $SCRIPTS_ROOTDIR/training/filter-model-given-input.pl  work/evaluation/filtered.nc-test2007 work/tuning/moses-tuned.ini work/evaluation/nc-test2007.lowercased.fr 
