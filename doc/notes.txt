@@ -36,5 +36,71 @@ git commit  (modified or added files) -a for all files
 How to debug:
 use kdbg
 
-Training process:
-export SCRIPTS_ROOTDIR=/media/andorid/smt/mosesdecoder/scripts
+How to keep update from upper stream
+http://help.github.com/fork-a-repo/
+
+1/3/2012
+Command history of training process (Basically following http://www.statmt.org/moses_steps.html)
+export SCRIPTS_ROOTDIR=/media/andorid/smt/mosesdecoder/scripts/training
+
+mosesdecoder$ gzip -cd data/training/news-commentary08.fr-en.fr.gz | tools/scripts/tokenizer.perl -l fr > work/corpus/news-commentary.tok.fr
+gzip -cd data/training/news-commentary08.fr-en.en.gz | scripts/tokenizer.perl -l en > work/corpus/news-commentary.tok.en
+$SCRIPTS_ROOTDIR/training/clean-corpus-n.perl work/corpus/news-commentary.tok fr en work/corpus/news-commentary.clean 1 40
+$SCRIPTS_ROOTDIR/lowercase.perl < work/corpus/news-commentary.clean.fr > work/corpus/news-commentary.lowercased.fr
+$SCRIPTS_ROOTDIR/lowercase.perl < work/corpus/news-commentary.clean.en > work/corpus/news-commentary.lowercased.en
+mkdir work/lm
+$SCRIPTS_ROOTDIR/lowercase.perl < work/corpus/news-commentary.tok.en > work/lm/news-commentary.lowercased.en
+srilm/bin/i686-m64/ngram-count -order 3 -interpolate -kndiscount -unk -text work/lm/news-commentary.lowercased.en -lm work/lm/news-commentary.lm
+head -n 5 work/lm/news-commentary.lm
+
+$SCRIPTS_ROOTDIR/training/train-model.perl -scripts-root-dir $SCRIPTS_ROOTDIR -root-dir work -corpus work/corpus/news-commentary.lowercased -f fr -e en -alignment grow-diag-final-and -reordering msd-bidirectional-fe -lm 0:3:/media/andorid/smt/mosesdecoder/work/lm/news-commentary.lm 
+
+If something goes wrong, first and last step can be skipped
+/media/andorid/smt/mosesdecoder$ $SCRIPTS_ROOTDIR/training/train-model.perl -scripts-root-dir $SCRIPTS_ROOTDIR -root-dir work -corpus work/corpus/news-commentary.lowercased -f fr -e en -alignment grow-diag-final-and -reordering msd-bidirectional-fe -lm 0:3:/media/andorid/smt/mosesdecoder/work/lm/news-commentary.lm -first-step 7 -last-step 9
+
+Test models
+echo "c' est une petite maison ." | /media/andorid/smt/mosesdecoder/dist/bin/moses -f work/model/moses.ini
+
+Tuning
+
+Tokenize sets
+mkdir work/tuning
+$SCRIPTS_ROOTDIR/tokenizer.perl -l fr < data/dev/nc-dev2007.fr > work/tuning/nc-dev2007.tok.fr
+$SCRIPTS_ROOTDIR/tokenizer.perl -l en < data/dev/nc-dev2007.en > work/tuning/nc-dev2007.tok.en
+mkdir work/evaluation
+$SCRIPTS_ROOTDIR/tokenizer.perl -l fr < data/devtest/nc-test2007.fr > work/evaluation/nc-test2007.tok.fr
+
+Lowercase sets
+$SCRIPTS_ROOTDIR/lowercase.perl < work/tuning/nc-dev2007.tok.fr > work/tuning/nc-dev2007.lowercased.fr
+$SCRIPTS_ROOTDIR/lowercase.perl < work/tuning/nc-dev2007.tok.en > work/tuning/nc-dev2007.lowercased.en 
+$SCRIPTS_ROOTDIR/lowercase.perl < work/evaluation/nc-test2007.tok.fr > work/evaluation/nc-test2007.lowercased.fr 
+
+head -n 100 work/tuning/nc-dev2007.lowercased.fr > work/tuning/nc-dev2007.lowercased.100.fr
+head -n 100 work/tuning/nc-dev2007.lowercased.en > work/tuning/nc-dev2007.lowercased.100.en
+
+
+
+$SCRIPTS_ROOTDIR/training/mert-moses.pl work/tuning/nc-dev2007.lowercased.100.fr work/tuning/nc-dev2007.lowercased.100.en dist/bin/moses work/model/moses.ini --working-dir /media/andorid/smt/mosesdecoder/work/tuning/mert --rootdir  $SCRIPTS_ROOTDIR  --decoder-flags "-v 0"
+
+$SCRIPTS_ROOTDIR/reuse-weights.perl work/tuning/mert/run2.moses.ini < work/model/moses.ini > work/tuning/moses-tuned.ini
+
+Fiter test data
+$SCRIPTS_ROOTDIR/training/filter-model-given-input.pl  work/evaluation/filtered.nc-test2007 work/tuning/moses-tuned.ini work/evaluation/nc-test2007.lowercased.fr 
+
+Run Tuned Decoder on Development Test Set
+dist/bin/moses -config work/tuning/moses-tuned.ini -input-file work/evaluation/nc-test2007.lowercased.fr 1> work/evaluation/nc-test2007.tuned.output 2> work/evaluation/tuned.decode.out 
+
+Train Recaser
+mkdir work/recaser
+$SCRIPTS_ROOTDIR/recaser/train-recaser.perl -train-script $SCRIPTS_ROOTDIR/training/train-model.perl -ngram-count /media/andorid/smt/mosesdecoder/srilm/bin/i686-m64/ngram-count -corpus work/corpus/news-commentary.tok.en -dir /media/andorid/smt/mosesdecoder/work/recaser -scripts-root-dir $SCRIPTS_ROOTDIR
+
+
+Recase the output
+$SCRIPTS_ROOTDIR/recaser/recase.perl -model work/recaser/moses.ini -in work/evaluation/nc-test2007.tuned.output -moses dist/bin/moses > work/evaluation/nc-test2007.tuned-filtered.output.recased
+
+Detokenize the output
+$SCRIPTS_ROOTDIR/detokenizer.perl -l en < work/evaluation/nc-test2007.tuned-filtered.output.recased > work/evaluation/nc-test2007.tuned-filtered.output.detokenized
+
+$SCRIPTS_ROOTDIR/wrap-xml.perl data/devtest/nc-test2007-ref.en.sgm en my-system-name < work/evaluation/nc-test2007.tuned-filtered.output.detokenized > work/evaluation/nc-test2007.tuned-filtered.output.sgm
+
+$SCRIPTS_ROOTDIR/mteval-v11b.pl -s data/devtest/nc-test2007-src.fr.sgm -r data/devtest/nc-test2007-ref.en.sgm -t work/evaluation/nc-test2007.tuned-filtered.output.sgm -c
