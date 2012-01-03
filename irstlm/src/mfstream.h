@@ -22,6 +22,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301 USA
 #include <fstream>
 #include <streambuf>
 #include <cstdio>
+#include <memory.h>
+#include <stdlib.h>
 
 using namespace std;
 
@@ -90,7 +92,7 @@ protected:
         /* copy up to four characters previously read into
          * the putback buffer (area of first four characters)
          */
-        std::memmove (buffer+(4-numPutback), gptr()-numPutback,
+        memmove (buffer+(4-numPutback), gptr()-numPutback,
                       numPutback);
 
         // read new characters

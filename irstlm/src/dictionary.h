@@ -21,8 +21,12 @@
 #ifndef MF_DICTIONARY_H
 #define MF_DICTIONARY_H
 
+#include <stdlib.h>
+#include <memory.h>
 #include <cstring>
 #include <iostream>
+#include <string.h>
+#include <stdio.h>
 
 #define MAX_WORD 1000
 #define LOAD_FACTOR  5

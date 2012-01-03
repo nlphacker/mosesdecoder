@@ -30,6 +30,8 @@ const int NULL=0;
 //#define NULL=0;
 #endif
 
+#include <memory.h>
+#include <stdlib.h>
 #include <iostream>  // std::ostream
 
 //! Memory block

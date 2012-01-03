@@ -3,9 +3,11 @@
 #include <windows.h>
 #include <io.h>
 #else
+#include <stdio.h>
 #include <iostream>
 #include <sys/types.h>
 #include <sys/mman.h>
+#include <stdlib.h>
 #endif
 
 #include "util.h"

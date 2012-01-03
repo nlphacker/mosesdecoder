@@ -12,14 +12,13 @@ type Make under the folder
 
 
 ./bjam --with-srilm=/media/andorid/smt/mosesdecoder/srilm --with-giza=/media/andorid/smt/mosesdecoder/bin -j2
+rebuild all
+./bjam --with-srilm=/media/andorid/smt/mosesdecoder/srilm --with-giza=/media/andorid/smt/mosesdecoder/bin -j2 -a
 
 #--with-irstlm=/home/jschroe1/demo/tools/irstlm 
 
 How to install boost
-sudo apt-get install libboost_thread-dev
-sudo apt-get install libboost-program-options-dev
-libboost-test-dev
-
+sudo apt-get install libboost-dbg libboost-dev libboost-all-dev
 
 How to use GIT
 git config --global user.name "nlphacker"
@@ -32,3 +31,10 @@ git add file
 git add folder
 git checkout folder
 git commit  (modified or added files) -a for all files
+
+
+How to debug:
+use kdbg
+
+Training process:
+export SCRIPTS_ROOTDIR=/media/andorid/smt/mosesdecoder/scripts

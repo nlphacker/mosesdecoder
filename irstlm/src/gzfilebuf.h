@@ -3,6 +3,7 @@
 
 #include <streambuf>
 #include <zlib.h>
+#include <memory.h>
 
 class gzfilebuf : public std::streambuf {
 public:
@@ -47,7 +48,7 @@ protected:
         /* copy up to four characters previously read into
          * the putback _buff (area of first four characters)
          */
-        std::memmove (_buff+(sizeof(int)-numPutback), gptr()-numPutback,
+        memmove (_buff+(sizeof(int)-numPutback), gptr()-numPutback,
                       numPutback);
 
         // read new characters
